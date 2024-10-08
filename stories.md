@@ -14,3 +14,7 @@ Can make up the 3 questions but ensure they relate to full stack web dev
 
 Qualified users should be able to register by providing a username, email,
 firstname, and lastname, to have their registration info emailed to jowen22@murraystate email
+
+### Graded On
+
+Graded on code (commenting, readability, etc), story completion, and visual appeal
