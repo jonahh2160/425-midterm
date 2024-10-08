@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 
 const WelcomePage = () => {
+  // Use state hooks
   const [username, setUser] = useState('');
   const [email, setEmail] = useState('');
   const [nameFirst, setFirst] = useState('');
@@ -12,6 +13,7 @@ const WelcomePage = () => {
 
   const navigate = useNavigate();
 
+  // Emails the registration info via EmailJS API
   const emailInfo = () => {
     const dataStruc = {
       username,
